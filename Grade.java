@@ -24,10 +24,6 @@ public class Grade{
         String name = "Rodgers Munene";
         String rollNo = "C026-01-0939/2022";
         int currentSemester = 2;
-        // int database = 70;
-        // int systems = 68;
-        // int algorithm = 74;
-        // int statistics = 75;
         int total = dbmsMarks + systemMarks + algoMarks + statisticsMarks;
         float average = total/4f;
         String grade;
